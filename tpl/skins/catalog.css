@@ -1,0 +1,95 @@
+#symbol {    
+    list-style: none;
+    padding: 5px;
+}
+#symbol ul {
+    list-style-type: none;
+}
+#symbol ul li{
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: top;    
+}
+
+/* На главной */
+#symbol ul li a.symbol_ru{
+    display: block;
+    padding: .2em 0.7em;
+    text-decoration: none;
+    color: rgb(212,75,56);
+    user-select: none;
+    outline: none;
+}
+#symbol ul li a.symbol_ru span {
+    display: table-cell;
+    padding: 5px;
+    background: rgb(56 162 212);
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+}
+#symbol ul li a.symbol_ru span:hover { background: rgb(48 144 189); }
+
+#symbol ul li a.symbol_en span{
+    display: table-cell;
+    padding: 5px;
+    background: rgb(56 212 212);
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+}
+#symbol ul li a.symbol_en span:hover { color: rgb(48 187 187); }
+
+#symbol ul li a.symbol_kod span{
+    display: table-cell;
+    padding: 5px;
+    background: rgb(138 56 212);
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+}
+#symbol ul li a.symbol_kod span:hover { color: rgb(125 51 193); }
+
+/* Символьный каталог */
+#symbol ul li a.catalog_ru{
+    display: block;
+    padding: .2em 0.7em;
+    text-decoration: none;
+    color: rgb(212,75,56);
+    user-select: none;
+    outline: none;
+}
+#symbol ul li a.catalog_ru:hover { color: rgb(232,95,76); }
+
+#symbol ul li a.catalog_en{
+    display: block;
+    padding: .2em 0.7em;
+    text-decoration: none;
+    color: rgb(212,75,56);
+    user-select: none;
+    outline: none;
+}
+#symbol ul li a.catalog_en:hover { color: rgb(232,95,76); }
+
+#symbol ul li a.catalog_kod{
+    display: block;
+    padding: .2em 0.7em;
+    text-decoration: none;
+    color: rgb(212,75,56);
+    user-select: none;
+    outline: none;
+}
+#symbol ul li a.catalog_kod:hover { color: rgb(232,95,76); }

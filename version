@@ -1,0 +1,21 @@
+;
+; Version description file for plugin @@ Next Generation CMS
+;
+ 
+ID: catalog
+Name: Буквенный каталог
+Version: 0.1
+Actions: admin:mod:news; add_catalog.php
+Acts: ppages, news_full, news_short, news_search, static, news:show
+File: catalog.php
+Config: config.php
+Type: plugin
+Install: install.php
+Deinstall: uninstall.php
+Description: Каталог по алфавиту
+Author: KachalkinGeorg
+Author_URI: 
+Icon: <i class='fa fa-sort-alpha-desc fa-2x'></i>
+Title: Символьный каталог
+Information: Возможность создать символьный каталог на сайте
+Preinstall: no
